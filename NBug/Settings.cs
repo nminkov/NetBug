@@ -33,7 +33,7 @@ namespace NBug
 	using StoragePath = NBug.Core.Util.Storage.StoragePath;
     using NBug.Core.Util.Storage;
 
-	public delegate void ProcessingExceptionEventHandler(Exception exception, Report report, ref bool SaveReport);
+	public delegate void ProcessingExceptionEventHandler(Exception exception, Report report, ref bool saveReport);
 
 	public static class Settings
 	{
